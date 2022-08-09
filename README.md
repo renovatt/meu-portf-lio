@@ -25,7 +25,7 @@ Essa é a primeira versão do meu Portfólio, venho mostrar um pouco do que esto
 - Front-end web: GitHub
 
 ## Como contribuir?
-- Você pode me dar suporte me seguindo aqui no GitHub ou criar uma conexão comigo no linkedin, crescendo minha Networking e curtir o meu projeto.
+- Você pode dar o seu suporte me seguindo aqui no GitHub ou fazer parte da minha Networking criando uma conexão comigo no linkedin, e curtir o meu projeto.
 
 # Autor
 
