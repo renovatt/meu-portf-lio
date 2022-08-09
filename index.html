@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/icone/favicon.ico" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portifólio - WillCode </title>
+</head>
+<body>
+    <header class="header" >
+        <nav class="nav">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>Will<span class="point">Code</span></h1>
+                </div>    
+                <ul class="nav-list">
+                    <li><a href="#w-about">Quem sou eu</a></li>
+                    <li><a href="#w-projects">Projetos</a></li>
+                    <li><a href="#w-know">Conhecimentos</a></li>
+                    <li><a href="https://github.com/renovatt" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="menu-mobile" class="menu-mobile">
+            <a href="#" class="close-btn" onclick="closeMenu()">
+            <img src="./assets/img/close-btn.png"></a>
+    
+            <article id="mobile-content" class="mobile-content">
+                <a id="a1" onclick="closeMenu()" href="#w-about">Quem sou eu</a>
+                <a id="a2" onclick="closeMenu()" href="#w-projects">Projetos</a>
+                <a id="a3" onclick="closeMenu()" href="#w-github">Conhecimentos</a>
+                <a id="a4" onclick="closeMenu()" href="https://github.com/renovatt" target="_blank">GitHub</a>
+            </article>
+        </section>
+    
+        <button class="open-btn" onclick="openMenu()">
+            <img src="./assets/svg/open-btn.svg" width="30px" height="30px">
+        </button>
+    </header>
+
+    <main>
+        <section class="w-menu">
+            <section class="w-show">
+                <article>
+                    <h1 class="w-show-name">Olá, eu sou<br>
+                    <span class="w-name">Will.</span><br>
+                    <span id="typewriter" class="w-typetext">Front-end Developer - Aprendiz</span>
+                    <span class="typewriter"></span>
+                    </span></h1>
+                    <div class="linkedin"><a href="https://www.linkedin.com/in/renovatt/" target="_blank">Linkedin</a></div>
+                </article>
+
+                <article class="show-logo">
+                    <img src="./assets/img/my-logo.png" alt="logo">
+                </article>
+            </section>
+
+            <section id="w-about" class="w-about">
+                <img src="./assets/img/about-img.png" width="35%" alt="picture">
+                <article class="w-about-text">
+                    <h1>Quem sou<span class="point">.</span></h1>
+                    <p>Sou um jovem iniciante em transição de carreira para o imenso mundo da tecnologia, que busca por aprendizado a fim de aprimorar meus conhecimentos. Procuro por oportunidades onde eu possa desenvolver minhas habilidades e agregar valor, de modo que consiga seguir em direção aos meus objetivos e também evoluir cada vez mais.</p>
+                </article>
+            </section>
+
+            <section id="w-projects" class="w-projects">
+                <div class="title-project">
+                    <h1 >Projetos<span class="point">.</span></h1>
+                </div>
+
+                <section class="w-cards">
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+
+                    <section class="card">
+                        <article class="card-content">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus sapiente.</p>
+                            <a href="#">Ver projeto</a>
+                        </article>
+                    </section>
+                </section>     
+
+            </section>
+
+            <div id="w-github" class="github">
+                <a href="https://github.com/renovatt" target="_blank">
+                    Repositórios no GitHub</a>
+            </div>
+
+            <div id="title-know" class="title-know">
+                <h1 >Conhecimentos<span class="point">.</span></h1>
+            </div>
+
+            <section id="w-know" class="w-know">
+               <div class="w-know-itens">
+
+                    <div class="know-cards">
+                        <span class="itens-know">
+                            <img src="./assets/svg/html.svg" width="60px" height="60px" alt=""><p>HTML</p>
+                        </span>
+                    </div>
+
+                    <div class="know-cards">
+                        <span class="itens-know">
+                            <img src="./assets/svg/css.svg" width="70px" height="70px" alt="CSS"><p class="css">CSS</p>
+                        </span>
+                    </div>
+
+                    <div class="know-cards">
+                        <span class="itens-know">
+                            <img src="./assets/svg/javascript.svg" width="60px" height="60px" alt="JavaScript"><p>JavaScript</p>
+                        </span>
+                    </div>
+                    
+                    <div class="know-cards">
+                        <span class="itens-know">
+                            <img src="./assets/svg/git.svg" width="60px" height="60px" alt="Git"><p>Git</p>
+                        </span>
+                    </div>
+                    
+                    <div class="know-cards">
+                        <span class="itens-know">
+                            <img src="./assets/svg/github.svg" width="60px" height="60px" alt="GitHub"><p>GitHub</p>
+                        </span>
+                    </div>
+               </div>
+
+               <div class="w-know-skills">
+                    <h2>Extra</h2>
+                    <p>Ainda não tenho conhencimento completo <br> sobre
+                    essas tecnologia, mas estou buscando aprendizado <br> pouco a pouco tendo uma base simples sobre elas.</p>
+
+                    <p>Ainda não tenho conhencimento completo sobre
+                    essas tecnologia, mas estou buscando aprendizado pouco a pouco tendo uma base simples sobre elas</p>
+                    
+                    <div class="tec-list">
+                        <ul>
+                            <li>ReactJS</li>
+                            <li>Bootstrap</li>
+                            <li>Banco de Dados</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <div id="btn" class="btn-top">
+                <img src="./assets/svg/up-btn.svg" width="100%" alt="btn-top">  
+            </div>
+        </section>
+    
+        <footer>
+            <div class="footer">
+                <p>© 2022 willcode</p>
+                <div class="footer-links">
+                    <p>
+                        <a href="https://www.linkedin.com/in/renovatt/" target="_blank"><img class="footer-ico-1"  src="assets/svg/footer-linkedin.svg"></a>
+                        <a href="https://github.com/renovatt" target="_blank"><img class="footer-ico-2" src="assets/svg/footer-github.svg"></a>
+                    </p>
+                    <p>Powered by <a href="https://www.linkedin.com/in/renovatt/" target="_blank"><span style="color: transparent;">-</span>WillLymes</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./assets/js/main.js"></script>
+    <script  src="./assets/js/vanillatilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".show-logo"), {
+            max: 15
+        })
+    </script>
+</body>
+</html>
