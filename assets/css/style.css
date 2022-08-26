@@ -358,6 +358,35 @@ main{
     box-shadow: 3px  3px 15px #0000006a;
 }
 
+.active{
+    margin: 0;
+    background-color: #0000008f;
+}
+
+.active-1{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../thumbs/yu-gi-oh.jpg);
+}
+
+.active-2{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../thumbs/spider-man.png);
+}
+
+.active-3{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../thumbs/pokemon.png);
+}
+
+.active-4{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../thumbs/clock.png);
+}
+
 .github{
     display: flex;
     justify-content: center;
