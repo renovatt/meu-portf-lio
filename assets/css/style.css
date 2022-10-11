@@ -372,16 +372,22 @@ main{
 .active-2{
     background-size: cover;
     background-position: center;
-    background-image: url(../thumbs/spider-man.png);
+    background-image: url(../thumbs/valorant.png);
 }
 
 .active-3{
     background-size: cover;
     background-position: center;
-    background-image: url(../thumbs/pokemon.png);
+    background-image: url(../thumbs/spider-man.png);
 }
 
 .active-4{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../thumbs/pokemon.png);
+}
+
+.active-5{
     background-size: cover;
     background-position: center;
     background-image: url(../thumbs/clock.png);
